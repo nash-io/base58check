@@ -8,6 +8,20 @@ Base58Check is a modified version of Base58 to be used for bitcoin addresses
 - [Base58](http://en.wikipedia.org/wiki/Base58)
 - [Base58Check](https://en.bitcoin.it/wiki/Base58Check_encoding)
 
+Installation
+------------
+
+Base58Check is [available in Hex](https://hex.pm/packages/base_58_check), and can be installed
+by adding `base_58_check` to your list of dependencies in `mix.exs`:
+
+```elixir
+def deps do
+  [
+    {:base_58_check, "~> 1.0"}
+  ]
+end
+```
+
 Usage
 -----
 

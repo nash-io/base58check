@@ -3,18 +3,26 @@ defmodule Base58.Mixfile do
 
   def project do
     [
-      app: :base58,
-      version: "0.1.0",
+      app: :base_58_check,
+      version: "1.0.0",
       elixir: "~> 1.0",
       description: "Base58Check and Base58 encoding/decoding for Elixir",
-      package: package()
+      package: package(),
+      deps: deps()
     ]
   end
 
   def application, do: []
 
+  defp deps do
+    [
+      {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
+    ]
+  end
+
   defp package do
     [
+      name: "base_58_check",
       contributors: ["Adrien Moreau"],
       licenses: ["MIT"],
       links: %{"GitHub" => "https://github.com/nash-io/base58check"}
