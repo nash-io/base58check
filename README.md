@@ -1,8 +1,12 @@
 Base58Check
 ===========
 
-[Base58](http://en.wikipedia.org/wiki/Base58) encoding in Elixir using the same alphabet Flickr uses for short URLs.
-[Base58Check](https://en.bitcoin.it/wiki/Base58Check_encoding) a modified Base58 for encoding Bitcoin addresses
+This library implements 3 encoding: Base58, Base58Zero, Base58Check
+
+Base58Check is a modified version of Base58 to be used for bitcoin addresses
+
+- [Base58](http://en.wikipedia.org/wiki/Base58)
+- [Base58Check](https://en.bitcoin.it/wiki/Base58Check_encoding)
 
 Usage
 -----
