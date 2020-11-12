@@ -1,4 +1,4 @@
-defmodule Base58.Mixfile do
+defmodule Base58Check.Mixfile do
   use Mix.Project
 
   def project do
